@@ -37,7 +37,7 @@ public class DriverInitialization {
 		}
  
 		driver.manage().window().maximize();
-		driver.get("https://scuygzq4e5p97711709-cpos.su.retail.dynamics.com/#DeviceId=5124B04&TerminalId=5124B04");
+		driver.get("https://www.demoblaze.com/");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("document.body.style.zoom='65%'");
 	}
