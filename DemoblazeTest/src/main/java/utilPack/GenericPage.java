@@ -14,7 +14,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-//import com.sun.tools.javac.util.List;
 
 import jdk.internal.vm.annotation.Hidden;
 
@@ -223,6 +222,4 @@ public class GenericPage {
 		data = webElement.getAttribute("value");
 		return data;
 	}
-
-
 }
