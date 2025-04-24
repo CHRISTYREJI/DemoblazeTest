@@ -20,5 +20,10 @@ public class HomePage_Obj {
 	public By ProductSelect(){return By.xpath("//a[text()='Samsung galaxy s6']/parent::h4");}
 	public By CartPage(){return By.xpath("//h2[text()='Samsung galaxy s6']");}
 	public By BtnaddToCart(){return By.xpath("//a[text()='Add to cart']");}
+	//cart page locators
+	public By BtnCart(){return By.xpath("//a[@id='cartur']");}
+	public By CartProductList(){return By.xpath("//td[text()='Samsung galaxy s6']");}
+	public By PlaceOrder(){return By.xpath("//button[text()='Place Order']");}
+	
 	
 }
