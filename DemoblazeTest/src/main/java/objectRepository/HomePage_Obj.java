@@ -24,6 +24,10 @@ public class HomePage_Obj {
 	public By BtnCart(){return By.xpath("//a[@id='cartur']");}
 	public By CartProductList(){return By.xpath("//td[text()='Samsung galaxy s6']");}
 	public By PlaceOrder(){return By.xpath("//button[text()='Place Order']");}
+	//place order page locators
+	public By NameField(){return By.xpath("//input[@id ='name']");}
+	public By CountryField(){return By.xpath("//input[@id ='country']");}
+	public By CityField(){return By.xpath("//input[@id ='city']");}
 	
 	
 }
